@@ -1,0 +1,90 @@
+.education-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.education-card {
+  width: 300px;
+  min-height: 200px;
+  margin: 40px 0;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.education-card:hover {
+  transform: scale(1.03);
+}
+
+.education-node {
+  width: 15px;
+  height: 15px;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.education-card::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  height: 30px;
+  width: 2px;
+  background-color: #3498db;
+  transform: translateX(-50%);
+}
+
+.edu-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.clickable {
+  cursor: pointer;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* White bold text for MCA */
+.white-text {
+  color: #ffffff !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px 2px #000; /* Optional for better contrast */
+}
+
+.education-details {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+
+
+  
+  
